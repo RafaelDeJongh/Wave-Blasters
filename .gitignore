@@ -1,8 +1,8 @@
 # Ignore Unnecessary UE4 Folders/Files
-GBStudios/Binaries/
-GBStudios/DerivedDataCache/
-GBStudios/Intermediate/
-GBStudios/Saved/
+GBStudios/Binaries/*
+GBStudios/DerivedDataCache/*
+GBStudios/Intermediate/*
+GBStudios/Saved/*
 *.VC.db
 *.opensdf
 *.opendb
