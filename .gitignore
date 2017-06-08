@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+# Ignore Unnecessary UE4 Folders
+GBStudios/Saved/*
+GBStudios/Binaries/*
+GBStudios/Intermediate/*
+GBStudios/DerivedDataCache/*
+# Ignore Unnecessary UE4 Files
+=======
+# Ignore Unnecessary UE4 Folders/Files
+GBStudios/Binaries/*
+GBStudios/DerivedDataCache/*
+GBStudios/Intermediate/*
+GBStudios/Saved/*
+>>>>>>> 036c2bc44633b4f0a3f85a3a2fd38985616d8371
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+# Folder config file
+Desktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
