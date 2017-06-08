@@ -1,3 +1,16 @@
+# Ignore Unnecessary UE4 Folders/Files
+GBStudios/Binaries/
+GBStudios/DerivedDataCache/
+GBStudios/Intermediate/
+GBStudios/Saved/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
