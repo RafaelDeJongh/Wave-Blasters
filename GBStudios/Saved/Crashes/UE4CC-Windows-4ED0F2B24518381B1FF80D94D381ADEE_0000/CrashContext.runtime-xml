@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-4ED0F2B24518381B1FF80D94D381ADEE_0000</CrashGUID>
+		<ProcessId>10444</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>7672</SecondsSinceStart>
+		<GameName>UE4-GBStudios</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.16.1-3466753+++UE4+Release-4.16</EngineVersion>
+		<CommandLine>&quot;C:\Users\Liam\Google Drive\GB Studios\Build\GBStudios\GBStudios.uproject&quot;</CommandLine>
+		<LanguageLCID>1033</LanguageLCID>
+		<AppDefaultLocale>en-CA</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.16-CL-3466753</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Liam</UserName>
+		<BaseDir>E:/UE4/UE_4.16/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>E:/UE4/UE_4.16/</RootDir>
+		<MachineId>26208B9D4AF3F377B7497A94B99763EA</MachineId>
+		<LoginId>26208b9d4af3f377b7497a94b99763ea</LoginId>
+		<EpicAccountId>9066849f4f5542a8beef9f71399399aa</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;StandaloneToolkit : 11&quot; Label=&quot;FirstPersonCharacterNew&quot; Content=SStandaloneAssetEditorToolkitHost</UserActivityHint>
+		<ErrorMessage>Ensure condition failed: ChildActorTemplate == nullptr [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\ChildActorComponent.cpp] [Line: 95] &nl;Found unexpected ChildActorTemplate REINST_WeaponClass_C_556 /Engine/Transient.TRASHCLASS_FirstPersonCharacterNew_365:WeaponClass_REMOVED_FE886DBB4C01A5AF829D16BF16DBCBB1.WeaponClass_GEN_VARIABLE_WeaponClass_C_CAT when ChildActorClass is null&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 970</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17129234432</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>7915425792</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140731448532992</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>996089856</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>2952351744</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>4927733760</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>4998705152</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636324679571150000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>

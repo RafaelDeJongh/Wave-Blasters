@@ -1,0 +1,557 @@
+﻿Log file open, 06/05/17 12:56:53
+LogInit:Display: Running engine for game: GBStudios
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-552293267) SRandInit(-552293267).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080201
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: E:/UE4/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.05-16.56.54:080][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.05-16.56.54:080][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.05-16.56.54:120][  0]LogInit: Computer: DESKTOP-VD2FRDQ
+[2017.06.05-16.56.54:120][  0]LogInit: User: Liam
+[2017.06.05-16.56.54:120][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.05-16.56.54:120][  0]LogInit: High frequency timer resolution =3.417982 MHz
+[2017.06.05-16.56.54:120][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.05-16.56.54:120][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.05-16.56.54:120][  0]LogMemory: Process Physical Memory: 276.46 MB used, 276.46 MB peak
+[2017.06.05-16.56.54:120][  0]LogMemory: Process Virtual Memory: 270.76 MB used, 270.76 MB peak
+[2017.06.05-16.56.54:120][  0]LogMemory: Physical Memory: 4849.91 MB used,  11485.80 MB free, 16335.71 MB total
+[2017.06.05-16.56.54:120][  0]LogMemory: Virtual Memory: 684.24 MB used,  11485.80 MB free, 134217728.00 MB total
+[2017.06.05-16.56.54:765][  0]LogInit: Using OS detected language (en-US).
+[2017.06.05-16.56.54:765][  0]LogInit: Using OS detected locale (en-CA).
+[2017.06.05-16.56.54:819][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.05-16.56.56:785][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.05-16.56.56:839][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.06.05-16.56.56:839][  0]LogD3D11RHI:       4059/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.05-16.56.56:841][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.05-16.56.56:841][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.05-16.56.56:841][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.05-16.56.56:855][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.05-16.56.56:855][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.05-16.56.56:855][  0]LogWindows: EnumDisplayDevices:
+[2017.06.05-16.56.56:855][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.06.05-16.56.56:855][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.06.05-16.56.56:855][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.05-16.56.56:856][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.05-16.56.56:856][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.06.05-16.56.56:856][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.06.05-16.56.56:856][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.06.05-16.56.56:856][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.06.05-16.56.56:856][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.05-16.56.56:896][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.05-16.56.57:141][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.05-16.56.57:286][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Intermediate/Shaders/WorkingDirectory/4508/).
+[2017.06.05-16.56.57:286][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liam/AppData/Local/Temp/UnrealShaderWorkingDir/CB8BEDD04FE00C8D5C6F5EAEB746C956/'.
+[2017.06.05-16.56.57:286][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.05-16.56.59:863][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.05-16.56.59:920][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.05-16.56.59:958][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.05-16.57.00:005][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.05-16.57.00:056][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.05-16.57.00:108][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.05-16.57.00:165][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.05-16.57.00:198][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.05-16.57.00:250][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.05-16.57.00:322][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.05-16.57.00:429][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.05-16.57.00:489][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.05-16.57.00:539][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.05-16.57.00:589][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.05-16.57.00:621][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.05-16.57.00:748][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.05-16.57.00:748][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.05-16.57.00:792][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.05-16.57.00:926][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.05-16.57.00:949][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.05-16.57.01:007][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.05-16.57.01:042][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.05-16.57.01:101][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.05-16.57.01:146][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.05-16.57.01:146][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.05-16.57.02:122][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.05-16.57.02:416][  0]LogDerivedDataCache: Loaded boot cache 0.29s 90MB C:/Users/Liam/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.05-16.57.02:416][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liam/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.05-16.57.02:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.05-16.57.02:417][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.05-16.57.02:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.05-16.57.02:417][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.05-16.57.02:442][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.05-16.57.02:454][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.05-16.57.02:463][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.05-16.57.02:532][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.05-16.57.02:541][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.05-16.57.02:541][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.05-16.57.08:217][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.05-16.57.08:657][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.05-16.57.09:146][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.05-16.57.09:209][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.05-16.57.09:267][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.05-16.57.09:267][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.05-16.57.09:267][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.05-16.57.11:712][  0]LogNetVersion: GBStudios , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1819163090)
+[2017.06.05-16.57.11:912][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2017.06.05-16.57.12:104][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.046931 seconds
+[2017.06.05-16.57.12:131][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.05-16.57.12:131][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.05-16.57.12:131][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.05-16.57.12:255][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.05-16.57.27:437][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.05-16.57.27:491][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.05-16.57.28:638][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.05-16.57.29:169][  0]SourceControl: Info Source control is disabled
+[2017.06.05-16.57.29:215][  0]SourceControl: Info Source control is disabled
+[2017.06.05-16.57.29:274][  0]SourceControl: Info Source control is disabled
+[2017.06.05-16.57.29:367][  0]SourceControl: Info Source control is disabled
+[2017.06.05-16.57.30:437][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.05-16.57.31:678][  0]LogEngine: Initializing Engine...
+[2017.06.05-16.57.31:693][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.05-16.57.32:010][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.05-16.57.32:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.05-16.57.32:203][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.05-16.57.32:234][  0]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.05-16.57.32:256][  0]LogInit: FAudioDevice initialized.
+[2017.06.05-16.57.32:333][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Liam/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.05-16.57.32:339][  0]LogInit: Texture streaming: Enabled
+[2017.06.05-16.57.32:490][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.05-16.57.32:490][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={CA49BDF8-46F0-318B-C420-7B87F616D44D}
+[2017.06.05-16.57.33:107][  0]LogInit: Transaction tracking system initialized
+[2017.06.05-16.57.33:587][  0]BlueprintLog: New page: Editor Load
+[2017.06.05-16.57.35:156][  0]LocalizationService: Info Localization service is disabled
+[2017.06.05-16.57.36:609][  0]LogConsoleResponse:Display: 
+[2017.06.05-16.57.37:915][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/' took 0.01s
+[2017.06.05-16.57.37:915][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.05-16.57.37:933][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.05-16.57.42:742][  0]SourceControl: Info Source control is disabled
+[2017.06.05-16.57.42:827][  0]Cmd: MAP LOAD FILE="C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.05-16.57.42:829][  0]LightingResults: New page: Lighting Build
+[2017.06.05-16.57.43:221][  0]MapCheck: New page: Map Check
+[2017.06.05-16.57.43:221][  0]LightingResults: New page: Lighting Build
+[2017.06.05-16.57.44:342][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.05-16.57.44:376][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.05-16.57.44:397][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.05-16.57.44:425][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.831ms to complete.
+[2017.06.05-16.57.44:425][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.598
+[2017.06.05-16.57.46:211][  0]LogCollectionManager: Loaded 0 collections in 0.000796 seconds
+[2017.06.05-16.57.46:375][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Collections/' took 0.01s
+[2017.06.05-16.57.46:375][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/Developers/Liam/Collections/' took 0.01s
+[2017.06.05-16.57.46:375][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/Collections/' took 0.01s
+[2017.06.05-16.57.46:375][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.06.05-16.57.46:398][  0]LogContentBrowser: Native class hierarchy populated in 0.0209 seconds. Added 2329 classes and 491 folders.
+[2017.06.05-16.57.46:535][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.06.05-16.57.47:614][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2017.06.05-16.57.47:732][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.05-16.57.47:966][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.05-16.57.47:992][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.05-16.57.47:994][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.05-16.57.48:009][  0]LogSlate: Took 0.009569 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.05-16.57.48:152][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:1).
+[2017.06.05-16.57.48:572][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.05-16.57.48:572][  0]LogLoad: (Engine Initialization) Total time: 57.32 seconds
+[2017.06.05-16.57.48:572][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.53 seconds
+[2017.06.05-16.57.48:572][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.05-16.57.48:979][  0]LogOcInput: OculusInput pre-init called
+[2017.06.05-16.57.48:979][  0]LogHMD: Starting GearVRController plugin
+[2017.06.05-16.57.49:037][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.06.05-16.57.49:953][  3]LogAssetRegistry: Asset discovery search completed in 38.0627 seconds
+[2017.06.05-16.57.49:957][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.05-16.57.49:957][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2017.06.05-18.00.19:801][872]LogSlate: Took 0.010497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.05-18.00.20:350][872]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.06.05-18.00.21:221][872]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.05-18.00.21:404][872]LogSlate: Took 0.022145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.05-18.00.21:704][873]LogSlate: Took 0.020876 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.05-18.00.54:952][ 26]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SniperRIfle.SKEL_SniperRIfle_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2017.06.05-18.00.54:952][ 26]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SniperRIfle.SniperRIfle_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2017.06.05-18.00.54:952][ 26]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SniperRIfle.SniperRIfle:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2017.06.05-18.00.54:952][ 26]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SniperRIfle.SniperRIfle:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2017.06.05-18.00.54:976][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/SniperRIfle" FILE="C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/SniperRIfle.uasset" SILENT=true
+[2017.06.05-18.00.54:982][ 26]LogSavePackage: Save=4.36ms
+[2017.06.05-18.00.54:982][ 26]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/SniperRIfle6C051CA743A31AC0D917BBA707241886.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/SniperRIfle.uasset'
+[2017.06.05-18.00.54:984][ 26]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/SniperRIfle.uasset
+[2017.06.05-18.01.10:570][484]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/WeaponBaseClassBP.WeaponBaseClassBP_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/SniperRIfle.PackageMetaData'
+[2017.06.05-18.01.10:570][484]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/WeaponBaseClassBP.SKEL_WeaponBaseClassBP_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/SniperRIfle.PackageMetaData'
+[2017.06.05-18.01.10:570][484]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/WeaponBaseClassBP.WeaponBaseClassBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/SniperRIfle.PackageMetaData'
+[2017.06.05-18.01.10:570][484]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/WeaponBaseClassBP.WeaponBaseClassBP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/SniperRIfle.PackageMetaData'
+[2017.06.05-18.01.10:594][484]LogSavePackage: Save=4.67ms
+[2017.06.05-18.01.10:594][484]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/WeaponBaseClassBP39F1ACE24E001350100BC089488EE45C.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBaseClassBP.uasset'
+[2017.06.05-18.01.10:595][484]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBaseClassBP.uasset
+[2017.06.05-18.01.24:606][703]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.WeaponBaseClassBP_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/WeaponBaseClassBP.PackageMetaData'
+[2017.06.05-18.01.24:606][703]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.SKEL_WeaponBaseClassBP_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/WeaponBaseClassBP.PackageMetaData'
+[2017.06.05-18.01.24:606][703]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.WeaponBaseClassBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/WeaponBaseClassBP.PackageMetaData'
+[2017.06.05-18.01.24:606][703]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.WeaponBaseClassBP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/WeaponBaseClassBP.PackageMetaData'
+[2017.06.05-18.01.24:633][703]LogSavePackage: Save=4.08ms
+[2017.06.05-18.01.24:633][703]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/WeaponBaseClassBP1C07D06F40E1798B920919868EE823A6.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.uasset'
+[2017.06.05-18.01.24:634][703]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.uasset
+[2017.06.05-18.02.14:767][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.05-18.02.25:444][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.05-18.02.49:589][705]LogSavePackage: Save=1.31ms
+[2017.06.05-18.02.49:589][705]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/FiringTypes659D3795461B6DAD8E2DA2B192FAB6AC.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/FiringTypes.uasset'
+[2017.06.05-18.02.49:591][705]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/FiringTypes.uasset
+[2017.06.05-18.02.51:422][864]BlueprintLog: New page: Compile WeaponBaseClassBP
+[2017.06.05-18.02.52:295][928]LogSavePackage: Save=4.15ms
+[2017.06.05-18.02.52:295][928]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/WeaponBaseClassBPDF3EF9644B525F101E9DA188C3AAF6EC.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.uasset'
+[2017.06.05-18.02.52:297][928]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.uasset
+[2017.06.05-18.02.57:106][293]LogSlate: Took 0.020483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.05-18.04.56:696][476]LogTemp: Dropped DamageFalloffMultiplier on Category Damage
+[2017.06.05-18.05.38:874][  2]LogTemp: Dropped StartingAmmo on Category Ammunition
+[2017.06.05-18.05.50:977][985]LogTemp: Dropped ReloadSpeed on Category Ammunition
+[2017.06.05-18.09.38:064][958]BlueprintLog: New page: Compile WeaponBaseClassBP
+[2017.06.05-18.09.38:067][958]LogBlueprint:Warning: [Compiler WeaponBaseClassBP] Warning Can't parse default value 'False' for  <None> . Property: ReloadSpeed.
+[2017.06.05-18.09.38:067][958]LogBlueprint:Warning: [Compiler WeaponBaseClassBP] Warning Can't parse default value 'False' for  <None> . Property: StartingAmmo.
+[2017.06.05-18.09.38:067][958]LogBlueprint:Warning: [Compiler WeaponBaseClassBP] Warning Can't parse default value 'False' for  <None> . Property: MaximumAmmo.
+[2017.06.05-18.09.38:067][958]LogBlueprint:Warning: [Compiler WeaponBaseClassBP] Warning Can't parse default value 'False' for  <None> . Property: DamageFalloffMultiplier.
+[2017.06.05-18.09.38:067][958]LogBlueprint:Warning: [Compiler WeaponBaseClassBP] Warning Can't parse default value 'False' for  <None> . Property: BaseDamage.
+[2017.06.05-18.09.38:166][958]BlueprintEditorCompileResults:Warning: Warning Can't parse default value 'False' for  <None> . Property: ReloadSpeed.
+[2017.06.05-18.09.38:166][958]BlueprintEditorCompileResults:Warning: Warning Can't parse default value 'False' for  <None> . Property: StartingAmmo.
+[2017.06.05-18.09.38:166][958]BlueprintEditorCompileResults:Warning: Warning Can't parse default value 'False' for  <None> . Property: MaximumAmmo.
+[2017.06.05-18.09.38:166][958]BlueprintEditorCompileResults:Warning: Warning Can't parse default value 'False' for  <None> . Property: DamageFalloffMultiplier.
+[2017.06.05-18.09.38:166][958]BlueprintEditorCompileResults:Warning: Warning Can't parse default value 'False' for  <None> . Property: BaseDamage.
+[2017.06.05-18.09.38:167][958]LogBlueprint:Warning: [Compiler WeaponBaseClassBP] Warning [4366.92] Compile of WeaponBaseClassBP successful, but with 5 Warning(s) [in 102 ms] (/Game/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.WeaponBaseClassBP)
+[2017.06.05-18.09.38:598][990]LogSavePackage: Save=4.87ms
+[2017.06.05-18.09.38:598][990]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/WeaponBaseClassBP289C37B246F3A330D9FD15824C6E94E2.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.uasset'
+[2017.06.05-18.09.38:599][990]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.uasset
+[2017.06.05-18.11.14:775][331]BlueprintLog: New page: Compile WeaponBaseClassBP
+[2017.06.05-18.11.14:778][331]LogBlueprint:Warning: [Compiler WeaponBaseClassBP] Warning Can't parse default value '0.000000' for  <None> . Property: Fire Animations.
+[2017.06.05-18.11.14:860][331]BlueprintEditorCompileResults:Warning: Warning Can't parse default value '0.000000' for  <None> . Property: Fire Animations.
+[2017.06.05-18.11.14:861][331]LogBlueprint:Warning: [Compiler WeaponBaseClassBP] Warning [4463.61] Compile of WeaponBaseClassBP successful, but with 1 Warning(s) [in 85 ms] (/Game/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.WeaponBaseClassBP)
+[2017.06.05-18.11.18:650][620]BlueprintLog: New page: Compile WeaponBaseClassBP
+[2017.06.05-18.11.50:360][116]BlueprintLog: New page: Compile WeaponBaseClassBP
+[2017.06.05-18.11.54:488][427]LogTemp: Dropped Reload Animations on Category Animations
+[2017.06.05-18.11.55:462][498]LogTemp: Dropped Draw Animations on Category Animations
+[2017.06.05-18.12.06:447][363]LogTemp: Dropped Switch Firing Mode on Category Animations
+[2017.06.05-18.13.29:519][865]LogTemp: Dropped AimDownSights on Category Animations
+[2017.06.05-18.13.50:510][537]BlueprintLog: New page: Compile WeaponBaseClassBP
+[2017.06.05-18.13.51:003][563]LogSavePackage: Save=6.72ms
+[2017.06.05-18.13.51:003][563]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/WeaponBaseClassBPBDCA865346CB2AC558B7C28936B7F854.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.uasset'
+[2017.06.05-18.13.51:005][563]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.uasset
+[2017.06.05-18.14.12:216][185]BlueprintLog: New page: Compile WeaponBaseClassBP
+[2017.06.05-18.14.12:966][232]LogSavePackage: Save=6.21ms
+[2017.06.05-18.14.12:966][232]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/WeaponBaseClassBP30D209D04A90B0E50F2D628AF9CBF94F.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.uasset'
+[2017.06.05-18.14.12:967][232]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.uasset
+[2017.06.05-18.14.23:779][ 58]LogSavePackage: Save=6.33ms
+[2017.06.05-18.14.23:779][ 58]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/WeaponBaseClassBP71A7EC0B43D3EF6B737950BC96D7A639.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.uasset'
+[2017.06.05-18.14.23:780][ 58]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/WeaponBaseClassBP.uasset
+[2017.06.05-18.14.54:737][336]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.05-18.15.03:482][362]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.018
+[2017.06.05-18.15.03:485][362]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/WeaponBP/SniperTest] ([1] browsable assets)...
+[2017.06.05-18.15.03:485][362]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/WeaponBP/SniperTest]
+[2017.06.05-18.15.03:494][362]LogSavePackage: Save=7.12ms
+[2017.06.05-18.15.03:494][362]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/SniperTest_Auto1378B63924F93AAC84930C1A631C031C3.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Autosaves/Game/FirstPersonBP/Blueprints/WeaponBP/SniperTest_Auto1.uasset'
+[2017.06.05-18.15.03:497][362]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Autosaves/Game/FirstPersonBP/Blueprints/WeaponBP/SniperTest_Auto1.uasset
+[2017.06.05-18.15.03:497][362]LogFileHelpers: Auto-saving content packages took 0.014
+[2017.06.05-18.19.54:691][ 22]BlueprintLog: New page: Compile PickupBP
+[2017.06.05-18.20.00:337][314]LogSavePackage: Save=40.07ms
+[2017.06.05-18.20.00:337][314]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/PickupBP9AED1F56488FFA829B8012874C6D0E87.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset'
+[2017.06.05-18.20.00:338][314]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset
+[2017.06.05-18.20.00:351][314]LogSavePackage: Save=3.97ms
+[2017.06.05-18.20.00:351][314]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/SniperTestFE46C671469536F75EC4B2A4536304CA.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/SniperTest.uasset'
+[2017.06.05-18.20.00:352][314]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/WeaponBP/SniperTest.uasset
+[2017.06.05-18.20.00:546][314]LogSavePackage: Save=132.79ms
+[2017.06.05-18.20.00:546][314]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/FirstPersonExampleMap796490284540238CDEEBBFB25134265E.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.05-18.20.00:549][314]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.05-18.20.00:567][314]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.209
+[2017.06.05-18.22.08:665][559]LogTemp: Dropped StaticMesh on Category Components
+[2017.06.05-18.29.59:964][611]LogSavePackage: Save=130.58ms
+[2017.06.05-18.29.59:964][611]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/FirstPersonExampleMap_Auto291F9BA564C2F1034E4F378948E609876.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2017.06.05-18.29.59:965][611]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2017.06.05-18.29.59:967][611]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.168
+[2017.06.05-18.29.59:967][611]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.168
+[2017.06.05-18.29.59:969][611]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP] ([1] browsable assets)...
+[2017.06.05-18.29.59:982][611]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP]
+[2017.06.05-18.29.59:982][611]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP]
+[2017.06.05-18.30.00:024][611]LogSavePackage: Save=37.27ms
+[2017.06.05-18.30.00:024][611]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/PickupBP_Auto21928F9DC41F92EE7F21DCCB01E6B606F.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Autosaves/Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP_Auto2.uasset'
+[2017.06.05-18.30.00:025][611]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Autosaves/Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP_Auto2.uasset
+[2017.06.05-18.30.00:025][611]LogFileHelpers: Auto-saving content packages took 0.057
+[2017.06.05-18.43.25:820][122]BlueprintLog: New page: Compile PickupBP
+[2017.06.05-18.43.26:216][123]LogSavePackage: Save=37.62ms
+[2017.06.05-18.43.26:216][123]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/PickupBPE0108E9A450BDC44C34245AAB23207B3.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset'
+[2017.06.05-18.43.26:218][123]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset
+[2017.06.05-18.43.27:756][264]LogEditorViewport: Clicking Background
+[2017.06.05-18.43.28:723][378]LogEditorViewport: Clicking on Actor (LMB): PickupBP_C (PickupBP)
+[2017.06.05-18.43.37:223][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.05-18.43.39:553][410]BlueprintLog: New page: Compile PickupBP
+[2017.06.05-18.43.40:070][434]LogSavePackage: Save=36.00ms
+[2017.06.05-18.43.40:070][434]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/PickupBP518469D94A70BCE0FA541CB90E728402.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset'
+[2017.06.05-18.43.40:071][434]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset
+[2017.06.05-18.44.12:285][779]BlueprintLog: New page: Compile PickupBP
+[2017.06.05-18.44.12:294][779]LogBlueprint:Error: [Compiler PickupBP] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.44.12:294][779]LogBlueprint:Error: [Compiler PickupBP] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.44.12:450][779]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.44.12:450][779]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.44.12:450][779]LogBlueprint:Warning: [Compiler PickupBP] Warning [6441.20] Compile of PickupBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 165 ms] (/Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP)
+[2017.06.05-18.44.12:849][804]LogSavePackage: Save=31.20ms
+[2017.06.05-18.44.12:849][804]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/PickupBP72F7D06F4B143C2308CFA988E79A308C.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset'
+[2017.06.05-18.44.12:851][804]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset
+[2017.06.05-18.44.27:411][835]BlueprintLog: New page: Compile PickupBP
+[2017.06.05-18.44.27:421][835]LogBlueprint:Error: [Compiler PickupBP] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.44.27:568][835]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.44.27:568][835]LogBlueprint:Warning: [Compiler PickupBP] Warning [6456.32] Compile of PickupBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 156 ms] (/Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP)
+[2017.06.05-18.44.35:613][392]BlueprintLog: New page: Compile PickupBP
+[2017.06.05-18.44.35:985][406]LogSavePackage: Save=35.53ms
+[2017.06.05-18.44.35:985][406]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/PickupBPE5F0873941CED1B0FF8FADB72632A363.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset'
+[2017.06.05-18.44.35:987][406]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset
+[2017.06.05-18.46.57:008][  5]LogEditorTransaction: Undo Modify Component(s)
+[2017.06.05-18.47.07:284][804]BlueprintLog: New page: Compile PickupBP
+[2017.06.05-18.47.07:294][804]LogBlueprint:Error: [Compiler PickupBP] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.47.07:294][804]LogBlueprint:Error: [Compiler PickupBP] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.47.07:449][804]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.47.07:449][804]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.47.07:450][804]LogBlueprint:Warning: [Compiler PickupBP] Warning [6616.20] Compile of PickupBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 165 ms] (/Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP)
+[2017.06.05-18.47.07:812][827]LogSavePackage: Save=34.89ms
+[2017.06.05-18.47.07:812][827]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/PickupBP527D03A141A4934F5C182E963C6D56D7.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset'
+[2017.06.05-18.47.07:814][827]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset
+[2017.06.05-18.47.16:542][443]BlueprintLog: New page: Compile PickupBP
+[2017.06.05-18.47.16:552][443]LogBlueprint:Error: [Compiler PickupBP] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.47.16:553][443]LogBlueprint:Error: [Compiler PickupBP] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.47.16:716][443]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.47.16:716][443]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.47.16:716][443]LogBlueprint:Warning: [Compiler PickupBP] Warning [6625.47] Compile of PickupBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 173 ms] (/Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP)
+[2017.06.05-18.47.17:845][517]LogSavePackage: Save=35.64ms
+[2017.06.05-18.47.17:845][517]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/PickupBPC50550D142FF31411B5B93815BA7F098.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset'
+[2017.06.05-18.47.17:846][517]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.uasset
+[2017.06.05-18.47.21:009][726]BlueprintLog: New page: Compile PickupBP
+[2017.06.05-18.47.21:019][726]LogBlueprint:Error: [Compiler PickupBP] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.47.21:188][726]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.05-18.47.21:189][726]LogBlueprint:Warning: [Compiler PickupBP] Warning [6629.94] Compile of PickupBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 179 ms] (/Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP)
+[2017.06.05-18.47.24:677][969]BlueprintLog: New page: Compile PickupBP
+[2017.06.05-18.47.24:688][969]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.PickupBP_496
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.47.24:689][969]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Engine/Transient.World_9:PersistentLevel.PickupBP_C_12
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.47.24:689][969]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Engine/Transient.World_6:PersistentLevel.PickupBP_C_1
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.47.24:766][969]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.PickupBP_496
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.47.24:766][969]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Engine/Transient.World_9:PersistentLevel.PickupBP_C_12
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.47.24:767][969]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Engine/Transient.World_6:PersistentLevel.PickupBP_C_1
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.47.39:545][916]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.PickupBP_496
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.47.39:546][916]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Engine/Transient.World_9:PersistentLevel.PickupBP_C_12
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.47.39:547][916]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Engine/Transient.World_6:PersistentLevel.PickupBP_C_1
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.47.49:994][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:130][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:192][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:195][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:197][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:199][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:201][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:211][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:214][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:216][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:218][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:220][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:233][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:236][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:238][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:238][360]LogSavePackage: Save=261.67ms
+[2017.06.05-18.47.50:239][360]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/BP_LightStudioE7354B5F4F9B3C3D839C33A629D61DF9.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/BP_LightStudio.uasset'
+[2017.06.05-18.47.50:241][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:243][360]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:244][360]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.06.05-18.47.50:361][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:370][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:378][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:381][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:383][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:385][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:387][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:390][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:391][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:393][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:395][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:396][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:399][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:401][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:402][361]LogSavePackage: Save=60.23ms
+[2017.06.05-18.47.50:403][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:403][361]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Blueprint_CeilingLightA0FA44F941F54D47377BE3B4FB183818.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset'
+[2017.06.05-18.47.50:408][361]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:409][361]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.06.05-18.47.50:942][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:947][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:952][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:955][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:957][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:960][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:962][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:966][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:968][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:971][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:973][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:975][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:977][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:979][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:981][362]LogSavePackage: Save=83.37ms
+[2017.06.05-18.47.50:982][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:982][362]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Blueprint_Effect_ExplosionDAD204784DEE1FC923A8D3A1C9262717.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset'
+[2017.06.05-18.47.50:985][362]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.50:987][362]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.06.05-18.47.51:175][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:178][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:182][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:192][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:194][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:195][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:198][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:208][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:210][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:211][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:213][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:217][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:219][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:221][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:222][363]LogSavePackage: Save=74.20ms
+[2017.06.05-18.47.51:222][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:223][363]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Blueprint_Effect_Fire405076C448601746C1F4E09BE9A9529C.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset'
+[2017.06.05-18.47.51:226][363]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:227][363]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.06.05-18.47.51:321][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:324][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:328][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:330][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:332][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:334][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:336][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:339][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:341][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:343][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:345][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:346][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:349][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:351][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:352][364]LogSavePackage: Save=67.46ms
+[2017.06.05-18.47.51:353][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:353][364]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Blueprint_Effect_Smoke8D27813E459E89796706D2ABD2F3D84B.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset'
+[2017.06.05-18.47.51:356][364]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:357][364]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.06.05-18.47.51:487][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:491][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:494][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:497][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:500][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:502][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:504][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:506][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:507][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:509][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:511][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:512][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:514][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:516][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:518][365]LogSavePackage: Save=65.43ms
+[2017.06.05-18.47.51:518][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:518][365]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Blueprint_Effect_SparksB902C92541B0843BCFBCE08634426B80.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset'
+[2017.06.05-18.47.51:521][365]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:522][365]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.06.05-18.47.51:604][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:608][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:612][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:614][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:617][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:619][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:621][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:623][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:625][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:627][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:628][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:630][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:632][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:634][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:635][366]LogSavePackage: Save=63.24ms
+[2017.06.05-18.47.51:635][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:635][366]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Blueprint_Effect_Steam3F33E43E4462680657AE25BCD887AC93.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset'
+[2017.06.05-18.47.51:638][366]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:639][366]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.06.05-18.47.51:714][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:724][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:731][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:736][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:738][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:740][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:742][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:744][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:746][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:749][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:751][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:752][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:755][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:756][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:758][367]LogSavePackage: Save=68.22ms
+[2017.06.05-18.47.51:758][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:759][367]LogSavePackage: Moving 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Saved/Blueprint_WallSconce73AD043E494E0FC5C40E9A9AD90C0E0A.tmp' to 'C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset'
+[2017.06.05-18.47.51:762][367]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.06.05-18.47.51:763][367]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Google Drive/GB Studios/Build/GBStudios/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.06.05-18.48.11:947][792]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Engine/Transient.World_9:PersistentLevel.PickupBP_C_12
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.48.20:105][280]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.PickupBP_496
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.48.20:106][280]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Engine/Transient.World_9:PersistentLevel.PickupBP_C_12
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.48.20:107][280]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Engine/Transient.World_6:PersistentLevel.PickupBP_C_1
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
+[2017.06.05-18.48.20:134][280]LogScript:Warning: Accessed None trying to read property StaticMesh
+	PickupBP_C /Engine/Transient.World_9:PersistentLevel.PickupBP_C_12
+	Function /Game/FirstPersonBP/Blueprints/EnivronmentBP/PickupBP.PickupBP_C:UserConstructionScript:005A
