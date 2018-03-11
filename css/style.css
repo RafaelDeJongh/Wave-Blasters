@@ -50,8 +50,11 @@ html{
 	@supports(background-blend-mode:hard-light){
 		body:before,body:after{
 			background-color:#fd58f8;
+			-webkit-background-blend-mode:hard-light;
 			background-blend-mode:hard-light;
+			-webkit-mask-size:100%;
 			mask-size:100%;
+			-webkit-mask-repeat:no-repeat;
 			mask-repeat:no-repeat;
 		}
 		body:before{
@@ -310,6 +313,7 @@ main{
 	95%{clip:rect(77px,9999px,26px,0)}
 	100%{clip:rect(71px,9999px,26px,0)}
 }
+/*Glitch Title*/
 .glitch-title:after{
 	content:attr(data-text);
 	position:absolute;
