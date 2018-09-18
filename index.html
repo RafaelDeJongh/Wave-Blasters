@@ -25,10 +25,14 @@
 	<div class="glitch_img"></div>
 	<div class="glitch-title" data-text="Wave Blasters"><h1 class="title"><span class="title-w">W</span>ave Blasters</h1></div>
 </main>
-<audio id="synthwave" controls autoplay loop>
+<iframe src="images/synthwave.mp3" allow="autoplay" style="display:none" id="iframeSynthwave"></iframe>
+<audio id="audioSynthwave" controls autoplay loop>
 	<source src="images/synthwave.ogg" type="audio/ogg">
 	<source src="images/synthwave.mp3" type="audio/mpeg">
 </audio>
-<script>setTimeout(()=>{document.getElementById('synthwave').play();},1000)</script>
+<script>
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+if(!isChrome){document.getElementById('iframeSynthwave').remove();setTimeout(()=>{document.getElementById('audioSynthwave').play();},1000)}else{document.getElementById('audioSynthwave').remove()}
+</script>
 </body>
 </html>
